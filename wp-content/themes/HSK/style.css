@@ -12,3 +12,7 @@ html { background: #333; }
 
 #showcase .work { width: 100%; margin-left: 0; }
 #showcase .item { width: 100%; }
+
+.portfolio #slider { width: 60%; height: 500px !important; }
+.portfolio #slider ul { height: 500px !important;}
+.portfolio #slider ul li { height: 500px !important;}

@@ -1,13 +1,19 @@
 <?php
 
 if (class_exists('MultiPostThumbnails')) {
-	new MultiPostThumbnails(
-		array(
-			'label' => __('Featured Image') . ' 2',
-			'id' => 'secondary-image',
-			'post_type' => 'cpo_portfolio'
-		)
-	);
+	for ($i = 0; $i < 10; $i++) {
+		new MultiPostThumbnails(
+			array(
+				'label' => 'Albumbild ' . ($i+1),
+				'id' => 'portfolio-slide-image-' . $i,
+				'post_type' => 'cpo_portfolio'
+			)
+		);
+	}
+
 }
+
+add_image_size('portfolio-slide', 600, 400);
+
 			
 ?>
