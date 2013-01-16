@@ -10,6 +10,7 @@ Template: panoramica
 
 html { background: #333; }
 
+#showcase { margin-top: 0px; border: none; }
 #showcase .work { width: 100%; margin-left: 0; }
 #showcase .item { width: 100%; }
 
