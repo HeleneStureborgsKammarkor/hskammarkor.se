@@ -1,4 +1,6 @@
 .htaccess
+.~
+
 wp-config.php
 index.php
 readme.html
