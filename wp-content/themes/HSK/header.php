@@ -69,7 +69,7 @@
             <li id="slider_slide_<?php echo $slide_count; ?>" style="background:url(<?php echo $image_url[0]; ?>) no-repeat #555 center;">
                 <div class="textbox">
                     <div class="content">
-                        <h2><?php the_title(); ?></h2>
+                        <h1><?php echo str_replace("\\n", "<br />", get_the_title()); ?></h1>
                         <?php the_content(); ?>
                     </div>
                 </div>
